@@ -10,23 +10,33 @@
     <header></header>
 
     <main>
-        <section class="todolist">
+        <!-- Ajout d'une todolist -->
+        <section class="createtodolist">
+            <h2 class="createtodolist__title">Créez votre ToDoList</h2>
+            <label for="nameoftodolist" class="createtodolist__label">Nom de la ToDoList</label>
+            <input type="text" name="nameoftodolist" id="nameoftodolist" class="createtodolist__input">
+            <button class="createtodolist__button">C'est parti!</button>
+        </section>
+
+        <!-- Structure complète de la todolist affichée à l'utilisateur -->
+        <!-- <section class="todolist">
             <h2 class="todolist__title">To Do List</h2>
             <div class="todolist__body">
-                <input type="text" class="todolist__body-input"><br>
-                <input type="text" class="todolist__body-input"><br>
-                <input type="text" class="todolist__body-input"><br>
-                <input type="text" class="todolist__body-input"><br>
-                <input type="text" class="todolist__body-input"><br>
-                <input type="text" class="todolist__body-input"><br>
-                <input type="text" class="todolist__body-input"><br>
-                <input type="text" class="todolist__body-input"><br>
-                <input type="text" class="todolist__body-input"><br>
-                <input type="text" class="todolist__body-input"><br>
+                <ul class="todolist__body-list">
+                    <li>Tâche 1</li>
+                    <li>Tâche 2</li>
+                    <li>Tâche 3</li>
+                    <li>Tâche 4</li>
+                    <li>Tâche 5</li>
+                </ul>
+                <label for="tache" class="todolist__body-label">Nouvelle tâche: </label>
+                <input type="text" class="todolist__body-input" id="tache" name="tache">
+                <button class="todolist__body-button">Ajouter une tâche</button>
             </div>
-        </section>
+        </section> -->
     </main>
 
     <footer></footer>
+    <script src="index.js"></script>
 </body>
 </html>
