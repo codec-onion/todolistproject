@@ -1,0 +1,39 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+
+body {
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+.todolist {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 5px 10px 5px;
+}
+.todolist__title {
+    border-bottom: 1px solid black;
+}
+
+.todolist__body-list {
+    margin: 20px 0 20px 0;
+}
+.todolist__body-list li {
+    cursor: pointer;
+}
+.todolist__body-list li:hover {
+    color: cadetblue;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>To Do List only for you</title>
 </head>
 <body>
@@ -13,9 +14,11 @@
         <!-- Ajout d'une todolist -->
         <section class="createtodolist">
             <h2 class="createtodolist__title">Créez votre ToDoList</h2>
-            <label for="nameoftodolist" class="createtodolist__label">Nom de la ToDoList</label>
-            <input type="text" name="nameoftodolist" id="nameoftodolist" class="createtodolist__input">
-            <button class="createtodolist__button">C'est parti!</button>
+            <form action="#" class="createtodolist__form">
+                <label for="nameoftodolist" class="createtodolist__label">Nom de la ToDoList</label>
+                <input type="text" name="nameoftodolist" id="nameoftodolist" class="createtodolist__input">
+                <button class="createtodolist__button">C'est parti!</button>
+            </form>
         </section>
 
         <!-- Structure complète de la todolist affichée à l'utilisateur -->
@@ -29,9 +32,11 @@
                     <li>Tâche 4</li>
                     <li>Tâche 5</li>
                 </ul>
-                <label for="tache" class="todolist__body-label">Nouvelle tâche: </label>
-                <input type="text" class="todolist__body-input" id="tache" name="tache">
-                <button class="todolist__body-button">Ajouter une tâche</button>
+                <form action="#" class="todolist__body-form">
+                    <label for="tache" class="todolist__body-label">Nouvelle tâche: </label>
+                    <input type="text" class="todolist__body-input" id="tache" name="tache">
+                    <button class="todolist__body-button">Ajouter une tâche</button>
+                </form>
             </div>
         </section> -->
     </main>
